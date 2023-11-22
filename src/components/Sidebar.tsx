@@ -10,7 +10,7 @@ const Sidebar = () => {
   const sections = useRef<HTMLDivElement[]>([]);
 
   const handleScroll = () => {
-    const pageYOffset = window.pageYOffset + 50;
+    const pageYOffset = window.pageYOffset + 250;
     let newActiveSection = null;
 
     sections.current.forEach((section) => {
