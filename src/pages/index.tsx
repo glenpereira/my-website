@@ -18,7 +18,7 @@ export default function Home() {
       <div className="lg:hidden mb-10">
         <AboutMe />
         <Socials />
-      H</div>
+      </div>
       <div className="w-full flex-none lg:w-2/5">
         <Sidebar />
       </div>
