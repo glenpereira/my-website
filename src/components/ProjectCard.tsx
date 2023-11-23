@@ -15,7 +15,7 @@ function ProjectCard({image, title, link, desc, skills}: ProjectCardProps){
     <Link href={link} target="_blank">
       <div className="rounded group lg:flex lg:hover:bg-slate-50/5 p-3 my-8">
         <div className="max-lg:flex  lg:w-1/6 lg:mr-5 lg:ml-3 mb-5 mr-2 text-slate-50/50 justify-center text-center">
-          <Image src={image} alt="project-image" width={200} height={150} className="rounded border-orange-600"/>
+          <Image src={image} alt="project-image" width={200} height={150} className="rounded border-orange-600 mt-2"/>
         </div>
         <div className="lg:w-5/6 lg:ml-4">
           <div className="flex mb-5 items-center">
