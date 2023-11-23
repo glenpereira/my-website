@@ -3,8 +3,8 @@ import TechBubble from "./TechBubble"
 function Skills(){
   return(
     <div>
-      <div className="">
-        <div>Skills</div>
+      <div className="mb-8">
+        <div className="mb-4 text-lg">Skills</div>
         <div className="flex flex-wrap">
           <TechBubble>React</TechBubble>
           <TechBubble>HTML</TechBubble>
@@ -12,8 +12,8 @@ function Skills(){
           <TechBubble>JavaScript</TechBubble>
         </div>
       </div>
-      <div>
-        <div>Familiar With</div>
+      <div className="mb-8">
+        <div className="mb-4 text-lg">Familiar With</div>
         <div className="flex flex-wrap">
           <TechBubble>React Native</TechBubble>
           <TechBubble>TypeScript</TechBubble>
@@ -26,7 +26,7 @@ function Skills(){
         </div>
       </div>
       <div>
-        <div>Currently Learning</div>
+        <div className="mb-4 text-lg">Currently Learning</div>
         <div className="flex flex-wrap">
           <TechBubble>Next.js</TechBubble>
           <TechBubble>TypeScript</TechBubble>

@@ -5,6 +5,7 @@
 :root {
   --primary: rgb(38, 38, 38);
   --secondary: rgb(138, 138, 138);
+  --color-secondary: rgba(245, 245, 245, 0);
 }
 
 /* Firefox */
