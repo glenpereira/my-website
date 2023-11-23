@@ -6,17 +6,17 @@ function Socials() {
     <div className="flex lg:mx-20 ml-10 lg:mt-20 mt-10 items-center">
       <Link href="https://github.com/glenpereira" target="_blank">
         <div className="mx-2">
-          <Image src="/github.svg" alt="Github" width={35} height={34.1} />
+          <Image src="/github.svg" alt="Github" width={35} height={34.1} className="lg:opacity-50 hover:opacity-100" />
         </div>
       </Link>
       <Link href="https://www.linkedin.com/in/glen-pereira/" target="_blank">
         <div className="mx-2">
-          <Image src="/linkedin.svg" alt="Linkedin" width={35} height={34.1} />
+          <Image src="/linkedin.svg" alt="Linkedin" width={35} height={34.1} className="lg:opacity-50 hover:opacity-100" />
         </div>
       </Link>
       <Link href="mailto:glenv.pereira@gmail.com" target="_blank">
         <div className="mx-2">
-          <Image src="/mail.svg" alt="Linkedin" width={35} height={34.1} />
+          <Image src="/mail.svg" alt="Linkedin" width={35} height={34.1} className="lg:opacity-50  hover:opacity-100" />
         </div>
       </Link>
     </div>

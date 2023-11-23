@@ -23,6 +23,9 @@ function Skills(){
           <TechBubble>Node.js</TechBubble>
           <TechBubble>MongoDB</TechBubble>
           <TechBubble>MySQL</TechBubble>
+          <TechBubble>AWS</TechBubble>
+          <TechBubble>Firebase</TechBubble>
+          <TechBubble>Figma</TechBubble>
         </div>
       </div>
       <div>

@@ -19,7 +19,7 @@ function Projects() {
       />
       <ProjectCard
         image="/ccp.png"
-        title="Crowd Control Protocol - Manage student entry and exit"
+        title="Crowd Control Protocol - Manage student entry/exit"
         link="https://github.com/glenpereira/ccp"
         desc="Built a simple app to assign activities to participants of our Gaming Lounge. Uses QR tags to control their entry and exit."
         skills={["React Native", "FireBase"]}
