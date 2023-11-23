@@ -49,7 +49,7 @@ export default function Home() {
         <div data-section id="skills" className="snap-start text-slate-200 mb-40">
           <Skills/>
         </div>
-        <div className="text-slate-200/50 text-sm text-right">
+        <div className="text-slate-200/50 text-sm lg:text-right text-center">
           <Footer/>
         </div>
       </main>
