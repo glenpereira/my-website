@@ -14,6 +14,39 @@ export default function Home() {
       <Head>
         <title>Glen Pereira</title>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#2e2e31"></meta>
+        <meta name="description" content="Glen Pereira is a Fullstack Developer building cool software for the web." key="desc" />
+        <meta property="og:title" content="Glen Pereira" />
+        <meta
+          property="og:description"
+          content="Glen Pereira is a Fullstack Developer building cool software for the web."
+        />
+        <meta
+          property="og:image"
+          content="/android-chrome-512x512.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
       <div className="lg:hidden mb-10">
         <AboutMe />
@@ -46,11 +79,15 @@ export default function Home() {
           <div className="lg:hidden mb-12 text-3xl font-medium">Projects</div>
           <Projects />
         </div>
-        <div data-section id="skills" className="snap-start text-slate-200 mb-40">
-          <Skills/>
+        <div
+          data-section
+          id="skills"
+          className="snap-start text-slate-200 mb-40"
+        >
+          <Skills />
         </div>
         <div className="text-slate-200/50 text-sm lg:text-right text-center">
-          <Footer/>
+          <Footer />
         </div>
       </main>
     </div>
