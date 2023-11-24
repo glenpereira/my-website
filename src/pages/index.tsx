@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Glen Pereira</title>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#2e2e31"></meta>
+        <meta name="theme-color" content="#2e2e31"/>
         <meta name="description" content="Glen Pereira is a Fullstack Developer building cool software for the web." key="desc" />
         <meta property="og:title" content="Glen Pereira" />
         <meta
@@ -46,7 +46,6 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
       </Head>
       <div className="lg:hidden mb-10">
         <AboutMe />
