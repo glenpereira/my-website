@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+// to implement later
 
 function Gradient(){
   const heroRef = useRef<HTMLDivElement>(null)
