@@ -58,16 +58,16 @@ export default function Home() {
         <div
           data-section
           id="about"
-          className="snap-start text-slate-200 mb-32"
+          className="snap-start text-slate-200 mb-20"
         >
           <AboutSection />
         </div>
         <div
           data-section
           id="experience"
-          className="snap-start text-slate-200 mb-32"
+          className="snap-start text-slate-200 mb-16"
         >
-          <div className="lg:hidden mb-12 text-3xl font-medium">Experience</div>
+          <div className="mb-12 text-3xl font-medium">Experience</div>
           <Experience />
         </div>
         <div
@@ -75,7 +75,7 @@ export default function Home() {
           id="projects"
           className="snap-start text-slate-200 mb-32"
         >
-          <div className="lg:hidden mb-12 text-3xl font-medium">Projects</div>
+          <div className="mb-12 text-3xl font-medium">Projects</div>
           <Projects />
         </div>
         <div

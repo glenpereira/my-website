@@ -10,6 +10,7 @@ function Skills(){
           <TechBubble>HTML</TechBubble>
           <TechBubble>CSS</TechBubble>
           <TechBubble>JavaScript</TechBubble>
+          <TechBubble>C#</TechBubble>
         </div>
       </div>
       <div className="mb-8">
@@ -26,6 +27,7 @@ function Skills(){
           <TechBubble>AWS</TechBubble>
           <TechBubble>Firebase</TechBubble>
           <TechBubble>Figma</TechBubble>
+          <TechBubble>SQL</TechBubble>
         </div>
       </div>
       <div>

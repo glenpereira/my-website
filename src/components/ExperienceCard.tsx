@@ -19,7 +19,7 @@ function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <Link href={link} target="_blank">
-      <div className="rounded group lg:flex lg:hover:bg-slate-50/5 p-3">
+      <div className="rounded group lg:flex lg:hover:bg-slate-50/5 p-3 mb-10">
         <div className="flex lg:w-1/6 lg:mx-5 mb-5 text-slate-50/50">
           {timeline}
         </div>
